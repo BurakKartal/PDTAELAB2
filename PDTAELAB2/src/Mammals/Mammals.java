@@ -39,7 +39,7 @@ public class Mammals {
 		this.types = types;
 	}
 
-	public static void animalSound(){
+	public void animalSound(){
 
 		System.out.println("Animal sounds like hav hav or miyav");
 	}
@@ -54,7 +54,7 @@ class Cat extends Mammals{
 		this.numberofcats = numberofcats;
 	}
 
-	public static void catSound(){
+	public void catSound(){
 
 		System.out.println("Miyaaaavvvv");
 	}
@@ -69,7 +69,7 @@ class Dog extends Mammals{
 	}
 
 
-	public static void dogSound(){
+	public void dogSound(){
 
 		System.out.println("Haavvvv haaaavvv");
 	}
